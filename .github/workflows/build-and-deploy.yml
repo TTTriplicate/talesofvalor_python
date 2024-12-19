@@ -31,6 +31,7 @@ jobs:
       - name: install lib dpendencies
         run: |
           sudo apt-get install -y default-libmysqlclient-dev build-essential pkg-config
+          python -m pip install pipenv
 
       - name: install python dependencies
         run: |
