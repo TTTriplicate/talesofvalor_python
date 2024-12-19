@@ -8,6 +8,10 @@ on:
           - production
           - staging
         required: true
+  push:
+    branches:
+      - production
+      - pipelining
 
 permissions:
   -read
