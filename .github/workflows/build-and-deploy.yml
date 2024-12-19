@@ -14,8 +14,7 @@ on:
       - production
       - pipelining
 
-permissions:
-  -read
+permissions: read-all
 
 jobs:
   deploy:
