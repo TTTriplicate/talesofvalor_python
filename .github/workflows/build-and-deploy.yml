@@ -32,5 +32,5 @@ jobs:
         run: |
           python -m pipenv sync
 
-      - name: deploy
-        run: fab deploy --environment ${{ inputs.environment }} 
+      # - name: deploy
+      #   run: fab deploy --environment ${{ inputs.environment }}
