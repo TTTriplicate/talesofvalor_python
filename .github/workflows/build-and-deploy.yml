@@ -42,3 +42,6 @@ jobs:
 # Feed it the secrets e.g. SECRET__PAYPAL_CLIENT_ID
       # - name: deploy
       #   run: fab deploy --environment ${{ inputs.environment }}
+      #   env:
+      #     PAYPAL_CLIENT_ID=${{ SECRET__PAYPAL_CLIENT_ID }}
+      #     PAYPAL_CLIENT_SECRET=${{ SECRET__PAYPAL_CLIENT_SECRET }}
