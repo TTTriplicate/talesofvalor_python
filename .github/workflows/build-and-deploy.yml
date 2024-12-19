@@ -37,5 +37,8 @@ jobs:
         run: |
           python -m pipenv sync
 
+# TODO
+# Get exact command from Rob
+# Feed it the secrets e.g. SECRET__PAYPAL_CLIENT_ID
       # - name: deploy
       #   run: fab deploy --environment ${{ inputs.environment }}
