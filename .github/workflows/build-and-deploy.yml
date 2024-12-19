@@ -8,6 +8,7 @@ on:
           - production
           - staging
         required: true
+        default: staging
   push:
     branches:
       - production
